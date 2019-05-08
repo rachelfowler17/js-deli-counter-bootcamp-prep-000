@@ -6,7 +6,8 @@ line.length;
 currentline.length; 
 
 function takeANumber (currentline) { 
-  var evennumber = 2; 
+  var number = 0; 
+  number++
   currentline.push (number); 
   
   return (`Welcome. You are number ${}`);}
