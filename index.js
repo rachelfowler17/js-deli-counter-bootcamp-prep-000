@@ -10,7 +10,7 @@ function takeANumber (currentline) {
   number++
   currentline.push (number); 
   
-  return (`Welcome. You are number ${}`);}
+  return (`Welcome. You are number ${number}`);}
   
   function nowServing (line) {
   if (!line.length) { return "There is nobody waiting to be served!" } 
