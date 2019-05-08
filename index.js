@@ -5,11 +5,11 @@ line[1];
 line.length;  
 currentline.length; 
 
-function takeANumber (currentline, newperson) { 
+function takeANumber (currentline) { 
+  var evennumber [2]
+  currentline.push (number); 
   
-  currentline.push (newperson); 
-  var positioninline = (currentline.length); 
-  return (`Welcome, ${newperson}. You are number ${positioninline} in line.`);}
+  return (`Welcome. You are number ${}`);}
   
   function nowServing (line) {
   if (!line.length) { return "There is nobody waiting to be served!" } 
