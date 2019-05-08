@@ -17,14 +17,19 @@ function takeANumber (currentline, newperson) {
   return "Currently serving"+ line.shift(); 
   }
   }
-   function 
+   function currentline (line) { 
+     
    
-  for (var i = 0, i;line.length; i++){ 
-    lineNamesandNumbers.push (i+1+","+line[i]); 
+   
+  if for (var i = 0, i;line.length; i++){ 
+  lineNamesandNumbers.push (i+1+","+line[i]); 
   } {
-  return "The line is currently:" + lineNamesandNumbers.join (","); 
+  return "The line is currently:" + lineNamesandNumbers.join (",")
+  else {
+    return "There is nobody waiting to be served!"} 
+  }
   } 
-  
+   }
   
   
 
