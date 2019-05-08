@@ -17,7 +17,7 @@ function takeANumber (currentline, newperson) {
   return "Currently serving"+ line.shift(); 
   }
   }
-  
+  function currentline 
    
   for (var i = 0, i;line.length; i++){ 
     lineNamesandNumbers.push (i+1+","+line[i]); 
