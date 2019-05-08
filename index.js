@@ -4,9 +4,10 @@ var lineNamesandNumbers = [`Steven`,`Ada`,`Grace`];
 line[1]; 
 line.length;  
 currentline.length; 
+var number = 0;
 
 function takeANumber (currentline) { 
-  var number = 0; 
+   
   number++
   currentline.push (number); 
   
